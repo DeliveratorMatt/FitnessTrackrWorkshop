@@ -10,7 +10,7 @@ export default function ActivitiesPage() {
       <h1>Activities</h1>
       <p>Imagine doing all these activities!</p>
       <ActivitiesList />
-      if(token){<AddActivityForm />}
+      {token && <AddActivityForm />}
     </>
   );
 }
